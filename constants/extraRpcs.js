@@ -1839,15 +1839,17 @@ export const extraRpcs = {
       "https://babel-api.mainnet.iotex.io",
       "https://babel-api.mainnet.iotex.one",
       "https://babel-api.fastblocks.io",
+      "https://iotex-rpc.chainanalytics.org/",
+      "https://babel.iotexapi.com/",
       {    
         url: "https://iotexrpc.com",
-	tracking: "limited",
+	      tracking: "limited",
         trackingDetails: privacyStatement.ankr,
       },
       {
         url: "https://iotex-network.rpc.thirdweb.com",    
-	tracking: "yes",
-	trackingDetails: privacyStatement.thirdweb,
+        tracking: "yes",
+        trackingDetails: privacyStatement.thirdweb,
       },
       {
         url: "https://iotex.api.onfinality.io/public",
